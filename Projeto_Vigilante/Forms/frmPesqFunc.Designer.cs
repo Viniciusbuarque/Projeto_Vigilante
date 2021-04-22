@@ -41,7 +41,7 @@ namespace Projeto_Vigilante
             this.iconButton1.Name = "iconButton1";
             this.iconButton1.Size = new System.Drawing.Size(323, 175);
             this.iconButton1.TabIndex = 1;
-            this.iconButton1.Text = "teste pesq vigilante";
+            this.iconButton1.Text = "teste pesq funcionario";
             this.iconButton1.UseVisualStyleBackColor = true;
             // 
             // frmPesqFunc

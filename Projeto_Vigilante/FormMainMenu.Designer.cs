@@ -141,7 +141,7 @@
             this.btnTelaExtra.FlatAppearance.BorderSize = 0;
             this.btnTelaExtra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTelaExtra.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnTelaExtra.IconChar = FontAwesome.Sharp.IconChar.UserPlus;
+            this.btnTelaExtra.IconChar = FontAwesome.Sharp.IconChar.Bookmark;
             this.btnTelaExtra.IconColor = System.Drawing.Color.Gainsboro;
             this.btnTelaExtra.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnTelaExtra.IconSize = 32;
@@ -151,7 +151,7 @@
             this.btnTelaExtra.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnTelaExtra.Size = new System.Drawing.Size(220, 60);
             this.btnTelaExtra.TabIndex = 5;
-            this.btnTelaExtra.Text = "Tela Extra";
+            this.btnTelaExtra.Text = "Gerar Relatório";
             this.btnTelaExtra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTelaExtra.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTelaExtra.UseVisualStyleBackColor = true;
