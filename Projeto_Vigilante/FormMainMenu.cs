@@ -82,7 +82,7 @@ namespace Projeto_Vigilante
 
         private void OpenChildForm(Form childForm)
         {
-            if (iconCurrentChildForm != null)
+            if (currentChildForm != null)
             {
                 //open only form
                 currentChildForm.Close();
@@ -101,41 +101,58 @@ namespace Projeto_Vigilante
         private void btnCadVig_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color1);
+            lblTitleChildForm.Text = "Cadastro Vigilante";
+            OpenChildForm(new frmCadVigilante());
+
         }
 
         private void btnCadFunc_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color2);
+            lblTitleChildForm.Text = "Cadastro Funcionário";
+            OpenChildForm(new frmCadFunc());
         }
 
         private void btnCadVisitante_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color3);
+            lblTitleChildForm.Text = "Registro Vigilante";
+            OpenChildForm(new frmRegVigilante());
         }
 
-        private void btnOcorrencia_Click(object sender, EventArgs e)
+        private void btnRegVisitante_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color4);
+            lblTitleChildForm.Text = "Registro Visitante";
+            OpenChildForm(new frmRegVisitante());
         }
 
-        private void iconButton5_Click(object sender, EventArgs e)
+        private void btnTelaExtra_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color5);
+            lblTitleChildForm.Text = "Tela Extra";
+            OpenChildForm(new frmTelaExtra());
         }
 
         private void btnPesqVig_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color6);
+            lblTitleChildForm.Text = "Pesquisa Vigilante";
+            OpenChildForm(new frmPesqVigilante());
         }
 
         private void btnPesqFunc_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color1);
+            lblTitleChildForm.Text = "Pesquisa Funcionario";
+            OpenChildForm(new frmPesqFunc());
         }
 
         private void btnPesqVisitante_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color2);
+            lblTitleChildForm.Text = "Pesquisa Visitante";
+            OpenChildForm(new frmPesqVisitante());
         }
 
         private void btnHome_Click(object sender, EventArgs e)

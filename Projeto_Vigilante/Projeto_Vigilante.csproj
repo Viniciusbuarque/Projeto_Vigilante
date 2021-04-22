@@ -49,16 +49,88 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\frmCadFunc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCadFunc.Designer.cs">
+      <DependentUpon>frmCadFunc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCadVigilante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCadVigilante.Designer.cs">
+      <DependentUpon>frmCadVigilante.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormMainMenu.Designer.cs">
       <DependentUpon>FormMainMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmPesqFunc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPesqFunc.Designer.cs">
+      <DependentUpon>frmPesqFunc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPesqVigilante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPesqVigilante.Designer.cs">
+      <DependentUpon>frmPesqVigilante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPesqVisitante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPesqVisitante.Designer.cs">
+      <DependentUpon>frmPesqVisitante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmRegVigilante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRegVigilante.Designer.cs">
+      <DependentUpon>frmRegVigilante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmRegVisitante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRegVisitante.Designer.cs">
+      <DependentUpon>frmRegVisitante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmTelaExtra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTelaExtra.Designer.cs">
+      <DependentUpon>frmTelaExtra.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormMainMenu.resx">
       <DependentUpon>FormMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCadFunc.resx">
+      <DependentUpon>frmCadFunc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCadVigilante.resx">
+      <DependentUpon>frmCadVigilante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPesqFunc.resx">
+      <DependentUpon>frmPesqFunc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPesqVigilante.resx">
+      <DependentUpon>frmPesqVigilante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPesqVisitante.resx">
+      <DependentUpon>frmPesqVisitante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRegVigilante.resx">
+      <DependentUpon>frmRegVigilante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRegVisitante.resx">
+      <DependentUpon>frmRegVisitante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTelaExtra.resx">
+      <DependentUpon>frmTelaExtra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -87,5 +159,6 @@
   <ItemGroup>
     <None Include="Resources\png-arte-.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

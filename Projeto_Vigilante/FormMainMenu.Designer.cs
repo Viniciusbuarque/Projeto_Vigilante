@@ -32,9 +32,9 @@
             this.btnPesqVisitante = new FontAwesome.Sharp.IconButton();
             this.btnPesqFunc = new FontAwesome.Sharp.IconButton();
             this.btnPesqVig = new FontAwesome.Sharp.IconButton();
-            this.iconButton5 = new FontAwesome.Sharp.IconButton();
-            this.btnOcorrencia = new FontAwesome.Sharp.IconButton();
-            this.btnCadVisitante = new FontAwesome.Sharp.IconButton();
+            this.btnTelaExtra = new FontAwesome.Sharp.IconButton();
+            this.btnRegVisitante = new FontAwesome.Sharp.IconButton();
+            this.btnRegVig = new FontAwesome.Sharp.IconButton();
             this.btnCadFunc = new FontAwesome.Sharp.IconButton();
             this.btnCadVig = new FontAwesome.Sharp.IconButton();
             this.panelLogo = new System.Windows.Forms.Panel();
@@ -57,9 +57,9 @@
             this.panelMenu.Controls.Add(this.btnPesqVisitante);
             this.panelMenu.Controls.Add(this.btnPesqFunc);
             this.panelMenu.Controls.Add(this.btnPesqVig);
-            this.panelMenu.Controls.Add(this.iconButton5);
-            this.panelMenu.Controls.Add(this.btnOcorrencia);
-            this.panelMenu.Controls.Add(this.btnCadVisitante);
+            this.panelMenu.Controls.Add(this.btnTelaExtra);
+            this.panelMenu.Controls.Add(this.btnRegVisitante);
+            this.panelMenu.Controls.Add(this.btnRegVig);
             this.panelMenu.Controls.Add(this.btnCadFunc);
             this.panelMenu.Controls.Add(this.btnCadVig);
             this.panelMenu.Controls.Add(this.panelLogo);
@@ -135,71 +135,71 @@
             this.btnPesqVig.UseVisualStyleBackColor = true;
             this.btnPesqVig.Click += new System.EventHandler(this.btnPesqVig_Click);
             // 
-            // iconButton5
+            // btnTelaExtra
             // 
-            this.iconButton5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton5.FlatAppearance.BorderSize = 0;
-            this.iconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton5.ForeColor = System.Drawing.Color.Gainsboro;
-            this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.UserPlus;
-            this.iconButton5.IconColor = System.Drawing.Color.Gainsboro;
-            this.iconButton5.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton5.IconSize = 32;
-            this.iconButton5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton5.Location = new System.Drawing.Point(0, 380);
-            this.iconButton5.Name = "iconButton5";
-            this.iconButton5.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton5.Size = new System.Drawing.Size(220, 60);
-            this.iconButton5.TabIndex = 5;
-            this.iconButton5.Text = "Tela Extra";
-            this.iconButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton5.UseVisualStyleBackColor = true;
-            this.iconButton5.Click += new System.EventHandler(this.iconButton5_Click);
+            this.btnTelaExtra.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnTelaExtra.FlatAppearance.BorderSize = 0;
+            this.btnTelaExtra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTelaExtra.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnTelaExtra.IconChar = FontAwesome.Sharp.IconChar.UserPlus;
+            this.btnTelaExtra.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnTelaExtra.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnTelaExtra.IconSize = 32;
+            this.btnTelaExtra.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTelaExtra.Location = new System.Drawing.Point(0, 380);
+            this.btnTelaExtra.Name = "btnTelaExtra";
+            this.btnTelaExtra.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnTelaExtra.Size = new System.Drawing.Size(220, 60);
+            this.btnTelaExtra.TabIndex = 5;
+            this.btnTelaExtra.Text = "Tela Extra";
+            this.btnTelaExtra.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTelaExtra.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnTelaExtra.UseVisualStyleBackColor = true;
+            this.btnTelaExtra.Click += new System.EventHandler(this.btnTelaExtra_Click);
             // 
-            // btnOcorrencia
+            // btnRegVisitante
             // 
-            this.btnOcorrencia.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnOcorrencia.FlatAppearance.BorderSize = 0;
-            this.btnOcorrencia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOcorrencia.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnOcorrencia.IconChar = FontAwesome.Sharp.IconChar.ExclamationTriangle;
-            this.btnOcorrencia.IconColor = System.Drawing.Color.Gainsboro;
-            this.btnOcorrencia.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnOcorrencia.IconSize = 32;
-            this.btnOcorrencia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOcorrencia.Location = new System.Drawing.Point(0, 320);
-            this.btnOcorrencia.Name = "btnOcorrencia";
-            this.btnOcorrencia.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnOcorrencia.Size = new System.Drawing.Size(220, 60);
-            this.btnOcorrencia.TabIndex = 4;
-            this.btnOcorrencia.Text = "Tela de Ocorrência";
-            this.btnOcorrencia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOcorrencia.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnOcorrencia.UseVisualStyleBackColor = true;
-            this.btnOcorrencia.Click += new System.EventHandler(this.btnOcorrencia_Click);
+            this.btnRegVisitante.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnRegVisitante.FlatAppearance.BorderSize = 0;
+            this.btnRegVisitante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegVisitante.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnRegVisitante.IconChar = FontAwesome.Sharp.IconChar.HouseUser;
+            this.btnRegVisitante.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnRegVisitante.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnRegVisitante.IconSize = 32;
+            this.btnRegVisitante.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRegVisitante.Location = new System.Drawing.Point(0, 320);
+            this.btnRegVisitante.Name = "btnRegVisitante";
+            this.btnRegVisitante.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnRegVisitante.Size = new System.Drawing.Size(220, 60);
+            this.btnRegVisitante.TabIndex = 4;
+            this.btnRegVisitante.Text = "Registro Visitante";
+            this.btnRegVisitante.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRegVisitante.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnRegVisitante.UseVisualStyleBackColor = true;
+            this.btnRegVisitante.Click += new System.EventHandler(this.btnRegVisitante_Click);
             // 
-            // btnCadVisitante
+            // btnRegVig
             // 
-            this.btnCadVisitante.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnCadVisitante.FlatAppearance.BorderSize = 0;
-            this.btnCadVisitante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCadVisitante.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnCadVisitante.IconChar = FontAwesome.Sharp.IconChar.HouseUser;
-            this.btnCadVisitante.IconColor = System.Drawing.Color.Gainsboro;
-            this.btnCadVisitante.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnCadVisitante.IconSize = 32;
-            this.btnCadVisitante.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCadVisitante.Location = new System.Drawing.Point(0, 260);
-            this.btnCadVisitante.Name = "btnCadVisitante";
-            this.btnCadVisitante.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnCadVisitante.Size = new System.Drawing.Size(220, 60);
-            this.btnCadVisitante.TabIndex = 3;
-            this.btnCadVisitante.Text = "Registro Visitante";
-            this.btnCadVisitante.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCadVisitante.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnCadVisitante.UseVisualStyleBackColor = true;
-            this.btnCadVisitante.Click += new System.EventHandler(this.btnCadVisitante_Click);
+            this.btnRegVig.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnRegVig.FlatAppearance.BorderSize = 0;
+            this.btnRegVig.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegVig.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnRegVig.IconChar = FontAwesome.Sharp.IconChar.Clipboard;
+            this.btnRegVig.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnRegVig.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnRegVig.IconSize = 32;
+            this.btnRegVig.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRegVig.Location = new System.Drawing.Point(0, 260);
+            this.btnRegVig.Name = "btnRegVig";
+            this.btnRegVig.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnRegVig.Size = new System.Drawing.Size(220, 60);
+            this.btnRegVig.TabIndex = 3;
+            this.btnRegVig.Text = "Registro Vigilante";
+            this.btnRegVig.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRegVig.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnRegVig.UseVisualStyleBackColor = true;
+            this.btnRegVig.Click += new System.EventHandler(this.btnCadVisitante_Click);
             // 
             // btnCadFunc
             // 
@@ -345,9 +345,9 @@
         private FontAwesome.Sharp.IconButton btnPesqVisitante;
         private FontAwesome.Sharp.IconButton btnPesqFunc;
         private FontAwesome.Sharp.IconButton btnPesqVig;
-        private FontAwesome.Sharp.IconButton iconButton5;
-        private FontAwesome.Sharp.IconButton btnOcorrencia;
-        private FontAwesome.Sharp.IconButton btnCadVisitante;
+        private FontAwesome.Sharp.IconButton btnTelaExtra;
+        private FontAwesome.Sharp.IconButton btnRegVisitante;
+        private FontAwesome.Sharp.IconButton btnRegVig;
         private FontAwesome.Sharp.IconButton btnCadFunc;
         private FontAwesome.Sharp.IconButton btnCadVig;
         private System.Windows.Forms.Panel panelLogo;
