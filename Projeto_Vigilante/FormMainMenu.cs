@@ -95,7 +95,6 @@ namespace Projeto_Vigilante
             panelDesktop.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
-            lblTitleChildForm.Text = childForm.Text;
         }
 
         private void btnCadVig_Click(object sender, EventArgs e)
